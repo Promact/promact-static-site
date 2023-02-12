@@ -589,6 +589,10 @@ header nav ul a:hover {
   padding-right: 14.4791666667vw;
 }
 
+.spacer_noMargin {
+  padding-bottom: 5.2083333333vw;
+}
+
 .spacer_h2 {
   opacity: 100%;
   font-size: 2.6041666667vw;
@@ -601,6 +605,35 @@ header nav ul a:hover {
   color: #F9C216;
 }
 
+.background_circle {
+  padding-right: 165px;
+  background: #212C85;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #212C85), color-stop(51%, #212C85), color-stop(51%, #FFFFFF), color-stop(100%, #FFFFFF));
+  background: linear-gradient(to bottom, #212C85 0%, #212C85 51%, #FFFFFF 51%, #FFFFFF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#212C85", endColorstr="#FFFFFF", GradientType=0 );
+}
+
+.container_small_circle {
+  height: 100px;
+  width: 100%;
+}
+
+.container_big_circle {
+  height: 150px;
+  width: 100%;
+}
+
+.background_circle img {
+  float: right;
+  width: auto;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  .background_circle {
+    padding-right: 50px;
+  }
+}
 @font-face {
   font-family: "Sans Bold";
   src: url(../font/product-sans/Product\ Sans\ Regular.ttf) format("truetype");
@@ -774,7 +807,11 @@ header nav ul a:hover {
   margin-top: 7.8125vw;
   margin-bottom: 7.8125vw;
   padding-left: 5.1041666667vw;
-  padding-right: 8.3854166667vw;
+  padding-right: 14.0625vw;
+}
+
+.section_noMargin {
+  margin-top: 2.6041666667vw;
 }
 
 .section2_divText {

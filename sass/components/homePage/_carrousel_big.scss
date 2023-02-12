@@ -13,7 +13,11 @@ $carrousel-text_size:20;
     margin-top: calculate-size(150);
     margin-bottom: calculate-size(150);
     padding-left: calculate-size(98); 
-    padding-right: calculate-size(161); 
+    padding-right: calculate-size(270); 
+}
+
+.section_noMargin{
+    margin-top: calculate-size(50);
 }
 
 .section2_divText{

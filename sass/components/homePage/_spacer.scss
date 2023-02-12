@@ -17,6 +17,10 @@ $spacer-text_size:50;
     padding-right: calculate-size(278);
 }
 
+.spacer_noMargin{
+    padding-bottom: calculate-size(100);
+}
+
 .spacer_h2{
     opacity: 100%;
     font-size: calculate-size($spacer-text_size);

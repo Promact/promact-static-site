@@ -103,6 +103,11 @@ header nav ul a:hover {
   transform: scaleX(1.1);
 }
 
+header nav ul li a:hover {
+  font-weight: bolder;
+  transform: scaleX(1.1);
+}
+
 /* Nav DropDown Company*/
 .company-dropdown {
   display: none;
@@ -1047,7 +1052,6 @@ footer {
   width: 100%;
   height: 10vh;
   background-color: #212C85;
-  color: white;
   padding-left: 7.2916666667vw;
   padding-right: 7.2916666667vw;
 }
@@ -1056,9 +1060,20 @@ footer {
   width: 100%;
   height: 100%;
   display: flex;
+  color: white;
   align-items: center;
   justify-content: space-between;
   font-size: 1.25vw;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover {
+  font-weight: bolder;
 }
 
 .container_footer_nav_logo {

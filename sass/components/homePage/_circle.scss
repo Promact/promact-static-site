@@ -26,6 +26,12 @@
     height: 100%;
 }
 
+@media (max-width: 1366px) {
+    .background_circle{
+        padding-right: 120px;
+    }
+}
+
 @media (max-width: 800px) {
     .background_circle{
         padding-right: 50px;

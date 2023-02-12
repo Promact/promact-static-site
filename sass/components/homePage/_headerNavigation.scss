@@ -76,6 +76,11 @@ header nav ul a:hover{
     transform: scaleX(1.1);
 }
 
+header nav ul li a:hover{
+    font-weight: bolder;
+    transform: scaleX(1.1);
+}
+
 
 /* Nav DropDown Company*/
 .company-dropdown{

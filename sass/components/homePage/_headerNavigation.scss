@@ -37,6 +37,7 @@ transform: scaleX(1.1);
 }
 
 .container{
+    padding-top: 20px;
     max-width: 1920px;
     margin: auto;
 }
@@ -51,7 +52,8 @@ header nav{
 }
 
 .header_logo{
-    width: 150px;
+    width: 200px;
+    align-items: center;
 }
 
 #ulCenter, #ulEnd{
@@ -263,6 +265,12 @@ header nav ul li a:hover{
     }
 }
 
+@media (max-width: 1366px) {
+    .header_logo{
+        width: 150px;
+    }
+}
+
 @media (max-width:1280px) {
     .company-dropdown-ul{
         width: 200px;
@@ -409,13 +417,24 @@ header nav ul li a:hover{
         display: block;
         text-align: center;
     }
-}
-
-@media (max-width:425px) {
-    .services-dropdown{
-        top: 108px;
+    .container{
+        padding-top: 0px;
     }
 }
+
+@media (max-width:430px) {
+    .services-dropdown{
+        top: 100px
+    }
+}
+
+@media (max-width:424px) {
+    .services-dropdown{
+        top: 106px
+    }
+}
+
+
 
 
 

@@ -27,14 +27,24 @@
     font-weight: bolder;
     padding-left: 140px;
     font-size: 60px;
-    margin-top: 70px;
-    margin-bottom: 40px;
+    margin-top: 215px;
+    margin-bottom: 60px;
 }
 
-.contact_card p{
+hr{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #343d3f55;
+    background-color: #343d3f56;
+    opacity: 0.5;
+}
+
+.contact_card__paragrph{
     margin-bottom: 20px;
     letter-spacing: 0.26px;
     opacity: 0.7;
+    font-size: 26px;
 }
 
 .social_media_container{
@@ -89,13 +99,15 @@
     font-weight: bold;
     color: #343D3F;
     opacity: 1;
+    font-size: 40px;
 }
 
 
 .p_marginTop{
     padding-top: 1.5em;
-    color: #273058;
+    color:#273058;
     opacity: 1;
+    font-size: 26px;
     letter-spacing: 0.26px;
     font-weight: bolder;
 }
@@ -103,11 +115,15 @@
 .email{
     font-weight: bolder;
     color: #343D3F;
+    font-size: 26px;
 }
 
 .social_media_container_p{
     width: 100%;
     color: #343D3F;
+    opacity: 1;
+    font-size: 26px;
+    font-weight: bolder;
     opacity: 0.7;
 }
 
@@ -132,7 +148,7 @@
 
 .container_background_img{
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-image: url("../../../img/Group\ 484/Group 484@2x.png");
     background-position: top;
     background-size: 100%;
@@ -142,6 +158,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 .container_background_img h2, .container_background_img h3{
     color: #FFFFFF;
@@ -160,6 +177,44 @@
     font-size: 30px;
 }
 
+.background_circle{
+    padding-right: 165px;
+    background: transparent;
+    background: -moz-linear-gradient(top, transparent 0%, transparent 51%, #FFFFFF 51%, #FFFFFF 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, transparent), color-stop(51%, transparent), color-stop(51%, #FFFFFF), color-stop(100%, #FFFFFF));
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 51%, #FFFFFF 51%, #FFFFFF 100%);
+    background: -o-linear-gradient(top, transparent 0%, transparent 51%, #FFFFFF 51%, #FFFFFF 100%);
+    background: -ms-linear-gradient(top, transparent 0%, transparent 51%, #FFFFFF 51%, #FFFFFF 100%);
+    background: linear-gradient(to bottom, transparent 0%, transparent 51%, #FFFFFF 51%, #FFFFFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#FFFFFF', GradientType=0 );
+}
+
+.container_small_circle{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    right:0;
+}
+
+.background_circle img{
+    float: right;
+    width: auto;
+    height: 100%;
+}
+
+@media (max-width: 1366px) {
+    .background_circle{
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 800px) {
+    .background_circle{
+        padding-right: 50px;
+    }
+}
+
 .span_bold{
     font-size: 60px;
     font-weight: bolder;
@@ -176,6 +231,10 @@
 
 
 /*---MediaQuerys---*/
+@media (max-width:1919) {
+
+}
+
 @media (max-width:1630px) {
     .contact_section1, .contact_section_job_Openings{
         padding-left: 190px;

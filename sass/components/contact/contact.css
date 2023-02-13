@@ -24,11 +24,13 @@ nav li {
   color: #FFFFFF;
   padding-left: 15px;
   padding-right: 15px;
+  z-index: 20;
 }
 
 header {
   padding-left: 60px;
   padding-right: 60px;
+  z-index: 20;
 }
 
 button {
@@ -57,17 +59,20 @@ header nav {
   padding: 25px 140px;
   justify-content: space-between;
   align-items: center;
+  z-index: 20;
 }
 
 .header_logo {
   width: 200px;
   align-items: center;
+  z-index: 99;
 }
 
 #ulCenter, #ulEnd {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 20;
 }
 
 #ulCenter h3, #ulEnd h3 {
@@ -499,7 +504,7 @@ button:hover {
 }
 .career_container_header {
   width: 100%;
-  height: auto;
+  height: 90vh;
   background-color: #212C85;
 }
 
@@ -522,8 +527,9 @@ a {
   height: auto;
   padding-left: 140px;
   padding-right: 140px;
-  padding-top: 180px;
+  padding-top: 200px;
   padding-bottom: 200px;
+  position: relative;
 }
 
 .career_container_header_div_h1 {
@@ -618,14 +624,24 @@ a {
   font-weight: bolder;
   padding-left: 140px;
   font-size: 60px;
-  margin-top: 70px;
-  margin-bottom: 40px;
+  margin-top: 215px;
+  margin-bottom: 60px;
 }
 
-.contact_card p {
+hr {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(52, 61, 63, 0.3333333333);
+  background-color: rgba(52, 61, 63, 0.337254902);
+  opacity: 0.5;
+}
+
+.contact_card__paragrph {
   margin-bottom: 20px;
   letter-spacing: 0.26px;
   opacity: 0.7;
+  font-size: 26px;
 }
 
 .social_media_container {
@@ -680,12 +696,14 @@ a {
   font-weight: bold;
   color: #343D3F;
   opacity: 1;
+  font-size: 40px;
 }
 
 .p_marginTop {
   padding-top: 1.5em;
   color: #273058;
   opacity: 1;
+  font-size: 26px;
   letter-spacing: 0.26px;
   font-weight: bolder;
 }
@@ -693,11 +711,15 @@ a {
 .email {
   font-weight: bolder;
   color: #343D3F;
+  font-size: 26px;
 }
 
 .social_media_container_p {
   width: 100%;
   color: #343D3F;
+  opacity: 1;
+  font-size: 26px;
+  font-weight: bolder;
   opacity: 0.7;
 }
 
@@ -722,7 +744,7 @@ a {
 
 .container_background_img {
   width: 100%;
-  height: 500px;
+  height: 550px;
   background-image: url("../../../img/Group 484/Group 484@2x.png");
   background-position: top;
   background-size: 100%;
@@ -750,6 +772,38 @@ a {
   font-size: 30px;
 }
 
+.background_circle {
+  padding-right: 165px;
+  background: transparent;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, transparent), color-stop(51%, transparent), color-stop(51%, #FFFFFF), color-stop(100%, #FFFFFF));
+  background: linear-gradient(to bottom, transparent 0%, transparent 51%, #FFFFFF 51%, #FFFFFF 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="transparent", endColorstr="#FFFFFF", GradientType=0 );
+}
+
+.container_small_circle {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+}
+
+.background_circle img {
+  float: right;
+  width: auto;
+  height: 100%;
+}
+
+@media (max-width: 1366px) {
+  .background_circle {
+    padding-right: 120px;
+  }
+}
+@media (max-width: 800px) {
+  .background_circle {
+    padding-right: 50px;
+  }
+}
 .span_bold {
   font-size: 60px;
   font-weight: bolder;

@@ -24,11 +24,13 @@ nav li {
   color: #FFFFFF;
   padding-left: 15px;
   padding-right: 15px;
+  z-index: 20;
 }
 
 header {
   padding-left: 60px;
   padding-right: 60px;
+  z-index: 20;
 }
 
 button {
@@ -57,17 +59,20 @@ header nav {
   padding: 25px 140px;
   justify-content: space-between;
   align-items: center;
+  z-index: 20;
 }
 
 .header_logo {
   width: 200px;
   align-items: center;
+  z-index: 99;
 }
 
 #ulCenter, #ulEnd {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 20;
 }
 
 #ulCenter h3, #ulEnd h3 {
@@ -2056,6 +2061,32 @@ textarea {
   margin-bottom: 40px;
 }
 
+/*
+.container_small_circle{
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.container_big_circle{
+    height: 150px;
+    width: 100%;
+}
+
+.background_circle{
+    padding-right: 165px;
+    background: transparent;
+}
+
+.background_circle img{
+    float: right;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    bottom: 107px;
+    right: 160px;
+}
+*/
 @media (max-width: 1366px) {
   .container_details_div_divCategory {
     width: 40%;

@@ -73,6 +73,18 @@ body{
     opacity: 1;
 }
 
+.link-button{
+    font-size: 21px;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.link-button:hover{
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
 @media (max-width: 1000px) {
     .layout_text_h1{
         font-size:  45px;
@@ -92,7 +104,7 @@ body{
     background-color: var(--white-color);
 }
 
-.contact-content h1{
+.contact-content h2{
     color: var(--text-color);
     opacity: 1;
     font-size: 60px;
@@ -100,10 +112,26 @@ body{
     letter-spacing: 1.5px;
 }
 
-.contact-content h2{
+.contact-content h3{
     font-size: 40px;
     opacity: 1;
     color: var(--text-color);
+    font-weight: bold;
+}
+
+.contact-content h4{
+    font-size: 26px;
+    opacity: 1;
+    color: var(--spacer-color);
+    letter-spacing: 0.26px;
+    font-weight: bold;
+}
+
+.contact-content h5{
+    font-size: 26px;
+    opacity: 1;
+    color: var(--text-color);
+    letter-spacing: 0.26px;
     font-weight: bold;
 }
 
@@ -113,22 +141,6 @@ body{
     color: var(--text-color);
     letter-spacing: 0.26px;
     font-weight: lighter;
-}
-
-.contact-content h5{
-    font-size: 26px;
-    opacity: 1;
-    color: var(--spacer-color);
-    letter-spacing: 0.26px;
-    font-weight: bold;
-}
-
-.contact-content h4{
-    font-size: 26px;
-    opacity: 1;
-    color: var(--text-color);
-    letter-spacing: 0.26px;
-    font-weight: bold;
 }
 
 .contact-content hr{
@@ -206,7 +218,7 @@ td, th {
     }
 }
 @media (max-width: 850px) {
-    .contact-content h1{
+    .contact-content h2{
         font-size: 45px;
     }
 }

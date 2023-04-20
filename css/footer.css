@@ -29,29 +29,45 @@ body{
 }
 
 .feature-section h2{
-    font-size: 55px;
+    font-size: 60px;
     color: var(--text-color);
     opacity: 1;
     font-weight: lighter;
 }
 
-.feature-section button{
+.link-features{
+    background-color: var(--primary-color);
     font-size: 20px;
     opacity: 1;
+    width: 266px;
+    height: 42px;
 }
 
+.link-features:hover{
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.feature-section a:hover{
+    color: #343D3F;
+}
+
+@media (max-width: 1366px) {
+    .feature-section h2{
+        font-size: 50px;
+    }
+}
 @media (max-width: 991px) {
     .content-feature{
         border-right:none;
     }
 }
-
 @media (max-width: 576px) {
-    .feature-section h2{
-        font-size: 35px;
+    .feature-section button{
+        width: 200px;
+        height: 45px;
     }
 }
-
  /******* Features End *****/
 
 
@@ -65,6 +81,7 @@ footer a{
     font-size: 20px;
     color: var(--white-color);
     font-weight: lighter;
+    text-decoration: none;
 }
 
 footer p{

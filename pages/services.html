@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/services.css">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/spacer.css">
     <link rel="stylesheet" href="../css/circle.css">
     <link rel="stylesheet" href="../css/heroPromactians.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -17,7 +16,7 @@
 </head>
 <body>
     <!-- Hero Start --> 
-    <div class="container-fluid container_header">
+    <div class="container-fluid container_header px-0 mx-0">
         <div class="container-fluid container_header_overlay px-0 mx-0">
             <!-- Nav start --> 
             <!-- Header Start --> 
@@ -25,7 +24,7 @@
                 <nav class="navbar navbar-expand-xl navbar-dark">
                     <div class="container-fluid px-xl-5 px-lg-3 py-4 mx-xl-3 mx-lg-1 my-2">
                         <a class="navbar-brand" href="../index.html">
-                            <img id="imgLogo" class="header_logo left px-2" src="../img/MainLogo/mainLogo.png">
+                            <img id="imgLogo" class="header_logo left px-2" src="../img/MainLogo/mainLogo.png" alt="logo-promact">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -35,23 +34,23 @@
                                 <li class="nav-item dropdown position-relative">
                                     <a class="nav-link link-services" href="#" id="navbarDropdown-services">
                                         Services 
-                                        <img id="imgDropDownServices" src="../img/Control/downArrowWhite.png">
+                                        <img id="imgDropDownServices" src="../img/Control/downArrowWhite.png" alt="dropdown-services">
                                     </a>                            
                                 </li>
                                 <li class="nav-item mx-xl-4 mx-lg-0 mx-md-0 mx-sm-0">
                                     <a class="nav-link" href="./case_study.html">Case Studies</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Estimation Calculator</a>
+                                    <a class="nav-link" href="./estimation_calculator.html">Estimation Calculator</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav ml-auto px-xl-4 px-lg-0 px-md-0">
                                 <li class="nav-item mx-xl-3 mx-lg-2 me-xl-4 me-lg-0 me-md-0 me-sm-2">
                                     <a class="nav-link link-company" href="#" id="navbarDropdown-company">
                                         Company 
-                                        <img id="imgDropDownCompany" src="../img/Control/downArrowWhite.png">
+                                        <img id="imgDropDownCompany" src="../img/Control/downArrowWhite.png" alt="dropdown-company">
                                     </a>
-                                    <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownCompany">
+                                    <div class="dropdown-menu w-100">
                                         <a class="dropdown-item" href="#">About Us</a>
                                         <a class="dropdown-item" href="#">Our Team</a>
                                         <a class="dropdown-item" href="#">History</a>
@@ -70,15 +69,17 @@
             <!-- DropDown Services Start --> 
             <div class="dropdown-services container-fluid px-xl-3 px-lg-0 m-0 py-0 position-absolute" id="dropdown-services">
                 <div class="row px-xl-5 px-lg-0">
-                    <div class="col-12 col-md-3 py-4 px-md-5">
-                        <h1 class="fs-3">Services</h1>
-                        <p class="fs-5 mb-4">Accelerate your vision with technologies that are both agile and cutting-edge.</p>
-                        <a class="fs-5" href="./services.html">View all Services</a>
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
+                        <h2 class="fs-3">Services</h2>
+                        <p class="fs-5 mb-lg-4 mb-sm-0">Accelerate your vision with technologies that are both agile and cutting-edge.</p>
+                        <a class="link-decoration fs-5" href="./services.html">View all Services</a>
                     </div>
-                    <div class="col-12 col-md-4 py-4 px-md-5">
+                    <div class="col-12 col-md-4 px-md-5">
                         <ul class="list-unstyled">
                             <li class="mb-3">
-                                <p class="px-4 fs-4 mb-lg-5 mb-md-2">Product Engineering</p>
+                                <a href="./services_product_engineering.html">
+                                    <p class="px-4 fs-4 mb-lg-5 mb-md-2">Product Engineering</p>
+                                </a>
                             </li>
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Digital Commerce Solutions</p>
@@ -89,12 +90,12 @@
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Transformation &amp; Modernization</p>
                             </li>
-                            <li class="mb-3">                        
+                            <li>                        
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Application Management &amp; Development</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5">
                         <ul class="list-unstyled">
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Agile</p>
@@ -108,12 +109,12 @@
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Mobility Solutions</p>
                             </li>
-                            <li class="mb-3">
+                            <li>
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">AI, Data &amp; Analytics</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-2 py-4 px-md-5">
+                    <div class="col-12 col-md-2 px-md-5">
                         <ul class="list-unstyled">
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">ERP</p>
@@ -124,7 +125,7 @@
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Cloud</p>
                             </li>
-                            <li class="mb-3">
+                            <li>
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Design</p>
                             </li>
                         </ul>
@@ -136,49 +137,49 @@
             <!-- DropDown Company Start --> 
             <div class="dropdown-company container-fluid px-xl-3 px-lg-0 m-0 py-0 position-absolute" id="dropdown-company">
                 <div class="row px-xl-5 px-lg-0">
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">About us</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Our belief is in providing solutions, with a great work environment. Discover more about us.
                         </p>
-                        <a class="fs-5">About Us</a>
+                        <a href="./aboutUs.html" class="link-decoration fs-5">About Us</a>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">Careers</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Accelerate your career with us. Find about all the exciting opportunities you can get!
                         </p>
-                        <a href="./career.html" class="fs-5">View Careers</a>
+                        <a href="./career.html" class="link-decoration fs-5">View Careers</a>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">Life@Promact</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Apart from work, we also enjoy the life we have at Promact. Discover more with us.
                         </p>
-                        <a class="fs-5">Check us out</a>
+                        <a href="./life_promact.html" class="link-decoration fs-5">Check us out</a>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">Partnership</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Partner with us and let us handle everything from scratch.
                         </p>
-                        <a class="fs-5">Partner with us</a>
+                        <a href="./partnership.html" class="link-decoration fs-5">Partner with us</a>
                     </div>
                 </div>
             </div>
@@ -186,8 +187,8 @@
             <!-- Nav End --> 
 
             <!-- Hero Content Start --> 
-            <div class="container_layout_content d-flex justify-content-center align-items-center">
-                <div class="layout_content_text px-2">
+            <div class="container_layout_content d-flex justify-content-center align-items-center pt-3">
+                <div class="layout_content_text px-2 pt-5">
                     <span>Services</span>
                     <h1 class="layout_text_h1 text-xxl pt-5">We are committed to <br> perform at any situation.</h1>
                 </div>
@@ -199,12 +200,12 @@
 
     <!-- Container Circle Start -->
     <div class="container-fluid container_small_circle background_circle">
-        <img src="../img/Bubble/BigCircle.png">
+        <img src="../img/Bubble/BigCircle.png" alt="circle">
     </div>
     <!-- Container Circle End-->
 
     <!-- Section Paragraph Start -->
-    <section class="paragraph-content container pt-5 px-5 m-lg-5 m-md-0 m-sm-0">
+    <div class="paragraph-content container pt-5 px-5 m-lg-5 m-md-0 m-sm-0">
         <div class="px-lg-5 px-md-0 px-sm-0 pt-3 mx-lg-5 mx-md-0 mx-sm-0 text-lg-start text-md-center">
             <p class="px-lg-3 px-md-0">
                 Call it what you want - innovation, disruption or transformation - it touches every  
@@ -213,28 +214,30 @@
                 for how fun it is to work with us!
             </p>
         </div>
-    </section>
+    </div>
     <!-- Section Paragraph End -->
 
     <!-- Section Services Start -->
-    <div class="services-content continaer-fluid">
+    <div class="services-content container-fluid">
         <div>
             <h1 class="mt-5 p-5 mx-lg-5 mx-md-2 mx-sm-2 text-lg-start text-md-center text-sm-center">
                 How do we make it easy for you
             </h1>
         </div>
-        <section class="services_card mt-3">
+        <div class="services_card mt-3">
             <!-- Card Service -->  
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-lg-start text-md-start text-sm-center">
-                        <img class="mb-4" src="../img/iconsServices/config.png">
+                        <img class="mb-4" src="../img/iconsServices/config.png" alt="Product-Engineering-icon">
                         <h2 class="mb-4">Product Engineering</h2>
                         <p>
                             Product as a service, we have and are creating some of the world’s 
                             coolest software products, we can do the same with you.                        
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -242,14 +245,16 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/shop.png">
+                        <img class="mb-4" src="../img/iconsServices/shop.png" alt="Digital-Commerce-Solutions-icon">
                         <h2 class="mb-4">Digital Commerce Solutions</h2>
                         <p>
                             As a strategic partner to global leaders in the retail, CPG, 
                             & manufacturing space, we provide online & in-store digital 
                             commerce capabilities & help you leap into the digital era.                        
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -257,13 +262,15 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/layer.png">
+                        <img class="mb-4" src="../img/iconsServices/layer.png" alt="Application-Managed-Services-icon">
                         <h2 class="mb-4">Application Managed Services</h2>
                         <p>
                             Develop web applications in Node (Javascript/Typescript), 
                             ExpressJS or other NodeJS MVC frameworks.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -271,14 +278,16 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/netConfig.png">
+                        <img class="mb-4" src="../img/iconsServices/netConfig.png" alt="Transformation-&-Modernization-icon">
                         <h2 class="mb-4">Transformation & Modernization</h2>
                         <p>
                             Enterprise transformation fundamentally changes the way an organization operate,
                             many times in unforeseen ways. We help you understand the nuances of this process
                             & can accurately map its impact & have expertise to carry it out.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -286,14 +295,16 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/programming.png">
+                        <img class="mb-4" src="../img/iconsServices/programming.png" alt="Application-Management-&-Development-icon">
                         <h2 class="mb-4">Application Management & Development</h2>
                         <p>
                             Agile, robust & scalable, our earliest offering. Digital product 
                             engineering is knowing how to make the application from the ground up, 
                             while also imagining what it could be in the future.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -301,14 +312,16 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/circle.png">
+                        <img class="mb-4" src="../img/iconsServices/circle.png" alt="Agile-icon">
                         <h2 class="mb-4">Agile</h2>
                         <p>
                             The world is changing quickly. Are you able to keep up 
                             with the pace? We can help you become more dynamic, nimble & 
                             resilient.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -316,14 +329,16 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start ">
-                        <img class="mb-4" src="../img/iconsServices/Infinite.png">
+                        <img class="mb-4" src="../img/iconsServices/Infinite.png" alt="DevOps-icon">
                         <h2 class="mb-4">DevOps</h2>
                         <p>
                             Our DevOps experts' architect innovative solutions 
                             that help organizations improve the performance & value of 
                             their business by aligning business objectives & DevOps technologies.                        
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -331,13 +346,15 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/api.png">
+                        <img class="mb-4" src="../img/iconsServices/api.png" alt="API-Management-icon">
                         <h2 class="mb-4">API Management</h2>
                         <p>
                             Start small but smart! Unlock the value of an API- enabled business transformation, 
                             maximizing ecosystem interactions, & legacy IT modernization.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -345,12 +362,14 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start ">
-                        <img class="mb-4" src="../img/iconsServices/mobile.png">
+                        <img class="mb-4" src="../img/iconsServices/mobile.png" alt="Mobility-Solutions-icon">
                         <h2 class="mb-4">Mobility Solutions</h2>
                         <p>
                             Java, Spring, and Frontend frameworks like Angular or React. Development, Debugging & Unit testing of Spring framework-based applications.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -358,13 +377,15 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/People.png">
+                        <img class="mb-4" src="../img/iconsServices/People.png" alt="AI-Data-&-Analytics-icon">
                         <h2 class="mb-4">AI,Data & Analytics</h2>
                         <p>
                             The challenge is not getting the data but knowing what to do with it. 
                             Our solutions male data actionable & leverageable.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -372,13 +393,15 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/erp.png">
+                        <img class="mb-4" src="../img/iconsServices/erp.png" alt="ERP-icon">
                         <h2 class="mb-4">ERP</h2>
                         <p>
                             Our ERP practice helps organizations improve information flow & operational efficiency. 
                             We bring our agile, responsive framework, that responds to your changing business context.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -386,13 +409,15 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start">
-                        <img class="mb-4" src="../img/iconsServices/crm.png">
+                        <img class="mb-4" src="../img/iconsServices/crm.png" alt="CRM-icon">
                         <h2 class="mb-4">CRM</h2>
                         <p>
                             With our Enterprise Agile approach, we revolutionize your CRM 
                             strategy & redefine customer success.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -400,13 +425,15 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start ">
-                        <img class="mb-4" src="../img/iconsServices/cloud.png">
+                        <img class="mb-4" src="../img/iconsServices/cloud.png" alt="Cloud-icon">
                         <h2 class="mb-4">Cloud</h2>
                         <p>
                             We can help you develop & implement the right cloud strategy 
                             for you, more rewards with less risk.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -414,13 +441,15 @@
             <article class="item_service article_service">
                 <div class="card-content-service">
                     <div class="text-start ">
-                        <img class="mb-4" src="../img/iconsServices/design.png">
+                        <img class="mb-4" src="../img/iconsServices/design.png" alt="Design-icon">
                         <h2 class="mb-4">Design</h2>
                         <p>
                             Build Connections with your consumers & deliver experiences 
                             they want, need & love.
                         </p>
-                        <button class="btn btn-sm my-4 rounded-5 px-4">Check out</button>
+                        <a class="link-check-out btn btn-sm my-4 rounded-5 px-4" href="./services_product_engineering.html">
+                            Check out
+                        </a>
                     </div>
                 </div>
             </article>
@@ -431,7 +460,7 @@
                     </div>
                 </div>
             </article>
-        </section>
+        </div>
     </div>
     <!-- Section Services End -->
 
@@ -447,26 +476,27 @@
     </section>
     <!-- Section Hero Promactians End -->
 
-    <!-- ------- Section Footer Start ---------- -->
-    <section class="feature-section pt-80 text-center p-lg-5 p-md-3 p-sm-3">
-        <div class="container py-5 mx-1 mx-auto">
-        <div class="row justify-content-center px-lg-5 p-sm-0 my-lg-5 m-sm-0">
-
-            <div class="content-feature col-lg-6 col-sm-12 px-5 p-sm-0 my-lg-5 my-sm-0 pe-lg-5 pe-md-0">
-                <div class="p-lg-0 p-sm-0">
+    <!-- Section Footer Start -->
+    <section class="feature-section py-5 mt-5 text-center px-xl-5 px-lg-0 mx-xl-5 mx-lg-0 text-center">
+        <div class="row justify-content-center px-xl-5 px-lg-0 my-lg-5 text-center mx-xl-5 mx-lg-0 py-xxl-5">
+            <div class="content-feature col-lg-6 col-md-12 col-sm-12 my-lg-6 my-sm-0 text-center pb-5">
+                <div>
                     <h2>What can we help you</h2>
                     <h2>achieve?</h2>
-                    <button class="btn btn-sm my-3 rounded-5 px-5 py-lg-2 py-md-0 py-sm-2">Talk to Us!</button>
+                    <a class="link-features btn btn-sm my-3 rounded-5 mb-5" href="./contact.html">
+                        Talk to Us!
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12 px-5 my-5 p-sm-0 ps-lg-5 ps-md-0">
-                <div class="p-lg-0 p-sm-0">
+            <div class="col-lg-6 col-md-12 col-sm-12 my-lg-6 my-sm-0 text-center pb-5">
+                <div>
                     <h2>Where will your career</h2>
                     <h2>take you?</h2>
-                    <button class="btn btn-sm my-3 rounded-5 px-5 py-lg-2 py-md-0 py-sm-2">Find Out Now!</button>
+                    <a class="link-features btn btn-sm my-3 rounded-5 mb-5" href="./career.html">
+                        Find Out Now!
+                    </a>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <footer class="container-fluid px-lg-5 px-md-0 px-sm-0 text-sm-center">
@@ -477,29 +507,29 @@
                 </div>
                 <div class="col-lg-9 d-lg-flex d-md-block d-sm-block justify-content-end col-md-12 col-sm-12 text-lg-end text-md-center text-sm-center text-center">
                     <ul class="list-inline pe-lg-5 pe-md-0 pe-sm-0">
-                        <li class="list-inline-item ms-md-0 ms-sm-0"><a href="#">Contact us</a></li>
+                        <li class="list-inline-item ms-md-0 ms-sm-0"><a href="./contact.html">Contact us</a></li>
                         <li class="list-inline-item ms-lg-4 ms-md-0 ms-sm-0"><a href="#">Privacy Policy</a></li>
                         <li class="list-inline-item ms-lg-4 ms-md-0 ms-sm-0"><a href="#">Sitemap</a></li>
                     </ul>
                     <ul class="list-inline">
                         <li class="list-inline-item ms-lg-0">
                             <a href="#">
-                                <img src="../img/Group 315.svg">
+                                <img src="../img/Group315.svg" alt="linkedin">
                             </a>
                         </li>
                         <li class="list-inline-item ms-lg-2 ms-md-0 ms-sm-0">
                             <a href="#">
-                                <img src="../img/Group 316.svg">
+                                <img src="../img/Group316.svg" alt="facebook">
                             </a>
                         </li>
                         <li class="list-inline-item ms-lg-2 ms-md-0 ms-sm-0">
                             <a href="#">
-                            <img src="../img/Group 312.svg">
+                            <img src="../img/Group312.svg" alt="twitter">
                             </a>
                         </li>
                         <li class="list-inline-item ms-lg-2 ms-md-0 ms-sm-0">
                             <a href="#">
-                                <img src="../img/Group 318.svg">
+                                <img src="../img/Group318.svg" alt="instagram">
                             </a>
                         </li>
                     </ul>
@@ -507,14 +537,14 @@
             </div>
         </div>
     </footer>
-    <!-- ------- Section Footer End ---------- -->
+    <!-- Section Footer End -->
 
     <!-- Js Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- JS DropDown Company -->
+    <!-- JS DropDown Navigator -->
     <script src="../js/dropDownNav.js"></script>
 </body>
 </html>

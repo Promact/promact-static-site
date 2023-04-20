@@ -131,6 +131,19 @@ body{
     letter-spacing: 2.4px;
 }
 
+.link-button{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.link-button:hover{
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
 .jobs-content h2{
     font-size: 30px;
     opacity: 1;

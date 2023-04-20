@@ -32,5 +32,11 @@ span{
     line-height: 80px;
     font-size: 50px;
 }
+
+@media (max-width:1000px) {
+    .spacer h2{
+        font-size: 40px;
+    }
+}
 /*--------- Spacer End ---------*/
 

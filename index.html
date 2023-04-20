@@ -25,8 +25,8 @@
             <header class="container-fluid px-xl-4 px-lg-2 position-relative">
                 <nav class="navbar navbar-expand-xl navbar-dark">
                     <div class="container-fluid px-xl-5 px-lg-3 py-4 mx-xl-3 mx-lg-1 my-2">
-                        <a class="navbar-brand" href="#">
-                            <img id="imgLogo" class="header_logo left px-2" src="./img/MainLogo/mainLogo.png">
+                        <a class="navbar-brand" href="./index.html">
+                            <img id="imgLogo" alt="logo-promact" class="header_logo left px-2" src="./img/MainLogo/mainLogo.png">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -36,23 +36,23 @@
                                 <li class="nav-item dropdown position-relative">
                                     <a class="nav-link link-services" href="#" id="navbarDropdown-services">
                                         Services 
-                                        <img id="imgDropDownServices" src="./img/Control/downArrowWhite.png">
+                                        <img alt="dropdown-services" id="imgDropDownServices" src="./img/Control/downArrowWhite.png">
                                     </a>                            
                                 </li>
                                 <li class="nav-item mx-xl-4 mx-lg-0 mx-md-0 mx-sm-0">
                                     <a class="nav-link" href="./pages/case_study.html">Case Studies</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Estimation Calculator</a>
+                                    <a class="nav-link" href="./pages/estimation_calculator.html">Estimation Calculator</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav ml-auto px-xl-4 px-lg-0 px-md-0">
                                 <li class="nav-item mx-xl-3 mx-lg-2 me-xl-4 me-lg-0 me-md-0 me-sm-2">
                                     <a class="nav-link link-company" href="#" id="navbarDropdown-company">
                                         Company 
-                                        <img id="imgDropDownCompany" src="./img/Control/downArrowWhite.png">
+                                        <img id="imgDropDownCompany"  alt="dropdown-company" src="./img/Control/downArrowWhite.png">
                                     </a>
-                                    <div class="dropdown-menu w-100" aria-labelledby="navbarDropdownCompany">
+                                    <div class="dropdown-menu w-100">
                                         <a class="dropdown-item" href="#">About Us</a>
                                         <a class="dropdown-item" href="#">Our Team</a>
                                         <a class="dropdown-item" href="#">History</a>
@@ -71,15 +71,17 @@
             <!-- DropDown Services Start --> 
             <div class="dropdown-services container-fluid px-xl-3 px-lg-0 m-0 py-0 position-absolute" id="dropdown-services">
                 <div class="row px-xl-5 px-lg-0">
-                    <div class="col-12 col-md-3 py-4 px-md-5">
-                        <h1 class="fs-3">Services</h1>
-                        <p class="fs-5 mb-4">Accelerate your vision with technologies that are both agile and cutting-edge.</p>
-                        <a class="fs-5" href="./pages/services.html">View all Services</a>
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
+                        <h2 class="fs-3">Services</h2>
+                        <p class="fs-5 mb-lg-4 mb-sm-0 p-services">Accelerate your vision with technologies that are both agile and cutting-edge.</p>
+                        <a class="link-decoration fs-5" href="./pages/services.html">View all Services</a>
                     </div>
-                    <div class="col-12 col-md-4 py-4 px-md-5">
+                    <div class="col-12 col-md-4 px-md-5">
                         <ul class="list-unstyled">
                             <li class="mb-3">
-                                <p class="px-4 fs-4 mb-lg-5 mb-md-2">Product Engineering</p>
+                                <a href="./pages/services_product_engineering.html">
+                                    <p class="px-4 fs-4 mb-lg-5 mb-md-2">Product Engineering</p>
+                                </a>
                             </li>
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Digital Commerce Solutions</p>
@@ -90,12 +92,12 @@
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Transformation &amp; Modernization</p>
                             </li>
-                            <li class="mb-3">                        
+                            <li>                        
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Application Management &amp; Development</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5">
                         <ul class="list-unstyled">
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Agile</p>
@@ -109,12 +111,12 @@
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Mobility Solutions</p>
                             </li>
-                            <li class="mb-3">
+                            <li>
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">AI, Data &amp; Analytics</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-2 py-4 px-md-5">
+                    <div class="col-12 col-md-2 px-md-5">
                         <ul class="list-unstyled">
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">ERP</p>
@@ -125,7 +127,7 @@
                             <li class="mb-3">
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Cloud</p>
                             </li>
-                            <li class="mb-3">
+                            <li>
                                 <p class="px-4 fs-4 mb-lg-5 mb-md-2">Design</p>
                             </li>
                         </ul>
@@ -137,49 +139,49 @@
             <!-- DropDown Company Start --> 
             <div class="dropdown-company container-fluid px-xl-3 px-lg-0 m-0 py-0 position-absolute" id="dropdown-company">
                 <div class="row px-xl-5 px-lg-0">
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">About us</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Our belief is in providing solutions, with a great work environment. Discover more about us.
                         </p>
-                        <a class="fs-5">About Us</a>
+                        <a href="./pages/aboutUs.html" class="link-decoration fs-5">About Us</a>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">Careers</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Accelerate your career with us. Find about all the exciting opportunities you can get!
                         </p>
-                        <a href="./pages/career.html" class="fs-5">View Careers</a>
+                        <a href="./pages/career.html" class="link-decoration fs-5">View Careers</a>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">Life@Promact</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Apart from work, we also enjoy the life we have at Promact. Discover more with us.
                         </p>
-                        <a class="fs-5">Check us out</a>
+                        <a href="./pages/life_promact.html" class="link-decoration fs-5">Check us out</a>
                     </div>
-                    <div class="col-12 col-md-3 py-4 px-md-5">
+                    <div class="col-12 col-md-3 px-md-5 pb-4">
                         <ul class="list-unstyled">
                             <li>
                                 <p class="px-2 fs-4 mb-lg-2 mb-md-2">Partnership</p>
                             </li>
                         </ul>
-                        <p class="fs-5 mb-4">
+                        <p class="fs-5 mb-4 container-links">
                             Partner with us and let us handle everything from scratch.
                         </p>
-                        <a class="fs-5">Partner with us</a>
+                        <a href="./pages/partnership.html" class="link-decoration fs-5">Partner with us</a>
                     </div>
                 </div>
             </div>
@@ -187,8 +189,8 @@
             <!-- Nav End --> 
 
             <!-- Hero Content Start --> 
-            <div class="container_layout_content pt-0 mt-0">
-                <div class="layout_content_text px-2">
+            <div class="container_layout_content pt-3 mt-0">
+                <div class="layout_content_text px-2 pt-5">
                     <h1 class="layout_text_h1 pt-lg-5 pt-md-0 mt-lg-5 mt-md-0">
                         <span class="layout_text_span">AWS </span>Education
                     </h1>
@@ -228,7 +230,7 @@
         <!-- Hero Content End --> 
 
         <!-- Hero Video --> 
-        <video src="./img/Hero/Promact Hero Banner Video (1).mp4" autoplay loop muted></video>
+        <video src="./img/Hero/Promact-Hero-Banner-Video.mp4" autoplay loop muted></video>
         <div class="layer"></div>
     </div>
     <!-- Hero End --> 
@@ -236,10 +238,9 @@
     <!-- Spacer Start-->
     <section class="container-fluid spacer p-5">
         <div class="row justify-content-center pt-5">
-            <div class="col-10 pt-3">
-                <h2 class="display-5 display-md-4">We are an excellence driven company with a passion for <br>
-                    technology where people <span>love what they do.</span>
-                </h2>
+            <div class="col-10 pt-4">
+                <h2 class="display-5 display-md-4">We are an excellence driven company with a passion for</h2>
+                <h2 class="display-5 display-md-4">technology where people <span>love what they do.</span></h2>
             </div>
         </div>
     </section>
@@ -247,7 +248,7 @@
 
     <!-- Container Circle Start -->
     <div class="container-fluid container_small_circle background_circle">
-        <img src="./img/Bubble/BigCircle.png">
+        <img src="./img/Bubble/BigCircle.png"  alt="big-circle">
     </div>
     <!-- Container Circle End-->
 
@@ -258,13 +259,13 @@
                 <!-- Buttons Next/Prev Start-->
                 <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 d-flex p-md-0 m-md-0 z-3">
                     <div class="m-3 pt-4">
-                        <img class="btn-prev arrow_transform" src="./img/Control/next_arrow.png" id="btn-prev">
+                        <img class="btn-prev arrow_transform" src="./img/Control/next_arrow.png" id="btn-prev" alt="carousel-prev">
                     </div>
                     <div class=" d-flex justify-content-between">
-                    <img class="arrow_line mb-3" src="./img/LineMiddleArrow/Line.png">
+                    <img class="arrow_line mb-3" src="./img/LineMiddleArrow/Line.png"  alt="carousel-line">
                     </div>
                     <div class="m-3 pt-4">
-                        <img class="btn-next" src="./img/Control/next_arrow.png" id="btn-next">
+                        <img class="btn-next" src="./img/Control/next_arrow.png" id="btn-next"  alt="carousel-next">
                     </div>
                 </div>
                 <!-- Buttons Next/Prev End-->
@@ -283,11 +284,13 @@
                                     apt solution for them providing advanced technology and
                                     security while saving costs.
                                 </p>
-                                <button class="btn btn-sm my-5 rounded-5 px-4">Read More</button>
+                                <a class="link-carousel btn btn-sm my-5 rounded-5 px-4" href="./pages/case_study.html">
+                                    Read More
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-11 p-0 m-0">
-                            <img class="p-0 m-0 w-100" src="./img/BigCarrousel/img1.png">
+                            <img class="p-0 m-0 w-100 px-5 px-lg-0" src="./img/BigCarrousel/img1.png"  alt="High-end-Library">
                         </div>
                     </div>
                 </div>
@@ -306,11 +309,13 @@
                                     its members. It provides customized features based on the
                                     clubs´ unique requeriments.
                                 </p>
-                                <button class="btn btn-sm my-5 rounded-5 px-4">Read More</button>
+                                <a class="link-carousel btn btn-sm my-5 rounded-5 px-4" href="#">
+                                    Read More
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-11 p-0 m-0">
-                            <img class="p-0 m-0 w-100" src="./img/BigCarrousel/img2.png">
+                            <img class="p-0 m-0 w-100 px-5 px-lg-0" src="./img/BigCarrousel/img2.png" alt="Game-Time">
                         </div>
                     </div>
                 </div>
@@ -331,11 +336,13 @@
                                     succession planing of existing employees, build teams and
                                     manage entire employee life-cycle.
                                 </p>
-                                <button class="btn btn-sm my-5 rounded-5 px-4s">Read More</button>
+                                <a class="link-carousel btn btn-sm my-5 rounded-5 px-4" href="#">
+                                    Read More
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-11 p-0 m-0">
-                            <img class="p-0 m-0 w-100" src="./img/BigCarrousel/img3.png">
+                            <img class="p-0 m-0 w-100 px-5 px-lg-0" src="./img/BigCarrousel/img3.png" alt="Questy">
                         </div>
                     </div>
                 </div>
@@ -357,11 +364,13 @@
                                     to streamline back-end processes and unify business analytics
                                     to give quick and accurate results.
                                 </p>
-                                <button class="btn btn-sm my-5 rounded-5 px-4">Read More</button>
+                                <a class="link-carousel btn btn-sm my-5 rounded-5 px-4" href="#">
+                                    Read More
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-11 p-0 m-0">
-                            <img class="p-0 m-0 w-100" src="./img/BigCarrousel/img4.png">
+                            <img class="p-0 m-0 w-100 px-5 px-lg-0" src="./img/BigCarrousel/img4.png" alt="Taras-Crunch">
                         </div>
                     </div>
                 </div>
@@ -381,11 +390,13 @@
                                     of their business online and will provide e-commerce + app-like
                                     experience to them.
                                 </p>
-                                <button class="btn btn-sm my-5 rounded-5 px-4">Read More</button>
+                                <a class="link-carousel btn btn-sm my-5 rounded-5 px-4" href="#">
+                                    Read More
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-11 p-0 m-0">
-                            <img class="p-0 m-0 w-100" src="./img/BigCarrousel/img5.png">
+                            <img class="p-0 m-0 w-100 px-5 px-lg-0" src="./img/BigCarrousel/img5.png" alt="Value-Scout-Recondo">
                         </div>
                     </div>
                 </div>
@@ -405,11 +416,13 @@
                                     monitor the origin, execution, production, and integration of
                                     reports in real-time.
                                 </p>
-                                <button class="btn btn-sm my-5 rounded-5 px-4">Read More</button>
+                                <a class="link-carousel btn btn-sm my-5 rounded-5 px-4" href="#">
+                                    Read More
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-11 p-0 m-0">
-                            <img class="p-0 m-0 w-100" src="./img/BigCarrousel/img6.png">
+                            <img class="p-0 m-0 w-100 px-5 px-lg-0" src="./img/BigCarrousel/img6.png" alt="Visiologyx">
                         </div>
                     </div>
                 </div>
@@ -429,11 +442,13 @@
                                     which included online quizzes, practical coding assessments,
                                     streaming videos, etc.
                                 </p>
-                                <button class="btn btn-sm my-5 rounded-5 px-4">Read More</button>
+                                <a class="link-carousel btn btn-sm my-5 rounded-5 px-4" href="#">
+                                    Read More
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-7 col-md-11 p-0 m-0">
-                            <img class="p-0 m-0 w-100" src="./img/BigCarrousel/img7.png">
+                            <img class="p-0 m-0 w-100 px-5 px-lg-0" src="./img/BigCarrousel/img7.png" alt="AWS-Education">
                         </div>
                     </div>
                 </div>
@@ -445,171 +460,170 @@
 
     <!-- Spacer Start-->
     <section class="container-fluid spacer p-5">
-        <div class="row justify-content-center pt-5">
-            <div class="col-10 pt-3">
-                <h2 class="display-5 display-md-4">We thrive on <span>excellence</span>, focus on <br>
-                    being <span>accountable</span>, develop <span>integrity</span> and <span>empathy</span> within.<br>
-                    It helps us grow.
-                </h2>
+        <div class="row justify-content-center py-5">
+            <div class="col-10 pt-3 my-3">
+                <h2 class="display-5 display-md-4">We thrive on <span>excellence</span>, focus on</h2>
+                <h2 class="display-5 display-md-4">being <span>accountable</span>, develop <span>integrity</span> and <span>empathy</span> within.</h2>
+                <h2 class="display-5 display-md-4">It helps us grow.</h2>
             </div>
         </div>
     </section>
     <!-- Spacer End-->
 
     <!-- Section Clients Start-->
-    <section class="container-clients pb-2">
+    <section class="container-clients py-3">
         <div class="container-fluid p-5">
             <div class="row justify-content-center pt-5">
-                <div class="col-10">
+                <div class="col-10 py-5">
                     <h2>It drives us to deliver our best to our <span>clients.</span></h2>
                 </div>
             </div>
         </div>
-        <div class="container pb-4">
-            <div class="row justify-content-center mx-5">
+        <div class="container-fluid pb-5 mb-5 m-0 p-0 mx-auto">
+            <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-18.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-18.png" class="img-fluid p-2" alt="zomato-hyperpure">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div class="icon color-2">
-                            <img src="./img/ClientsLogos/logo-19.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-19.png" class="img-fluid p-2" alt="kpmg">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-15.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-15.png" class="img-fluid p-2" alt="quantive">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-12.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-12.png" class="img-fluid p-2" alt="abb">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-9.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-9.png" class="img-fluid p-2" alt="civica">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mx-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-20.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-20.png" class="img-fluid p-2" alt="visualogyx">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div >
-                        <img src="./img/ClientsLogos/logo-8.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-8.png" class="img-fluid p-2" alt="supplyellie">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div class="icon color-2">
-                        <img src="./img/ClientsLogos/logo-10.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-10.png" class="img-fluid p-2" alt="crompton-greaves">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div>
-                        <img src="./img/ClientsLogos/logo-11.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-11.png" class="img-fluid p-2" alt="m2-services">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-6.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-6.png" class="img-fluid p-2" alt="intech-process-automation">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mx-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-1.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-1.png" class="img-fluid p-2" alt="denimme">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div >
-                        <img src="./img/ClientsLogos/logo-16.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-16.png" class="img-fluid p-2" alt="teetra">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div class="icon color-2">
-                        <img src="./img/ClientsLogos/logo-5.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-5.png" class="img-fluid p-2" alt="jamoon">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div>
-                        <img src="./img/ClientsLogos/logo-3.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-3.png" class="img-fluid p-2" alt="valcom">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-2.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-2.png" class="img-fluid p-2" alt="vatscan">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mx-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-7.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-7.png" class="img-fluid p-2" alt="novoguild">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div >
-                        <img src="./img/ClientsLogos/logo-4.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-4.png" class="img-fluid p-2" alt="macleods">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div class="icon color-2">
-                        <img src="./img/ClientsLogos/logo-14.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-14.png" class="img-fluid p-2" alt="gametime">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                     <div>
-                        <img src="./img/ClientsLogos/logo-17.png" class="img-fluid p-2">
+                        <img src="./img/ClientsLogos/logo-17.png" class="img-fluid p-2" alt="tranzport">
                     </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 col-ms-2">
                     <div class="card_client">
                         <div>
-                            <img src="./img/ClientsLogos/logo-13.png" class="img-fluid p-2">
+                            <img src="./img/ClientsLogos/logo-13.png" class="img-fluid p-2" alt="grindrod-bank">
                         </div>
                     </div>
                 </div>
@@ -621,7 +635,7 @@
     <!-- Spacer Start-->
     <section class="container-fluid spacer p-5">
         <div class="row justify-content-center pt-5">
-            <div class="col-10 pt-3">
+            <div class="col-10 pt-4">
                 <h2 class="display-5 display-md-4">
                     It drives us to focus on excellence in our <span>services.</span>
                 </h2>
@@ -632,24 +646,24 @@
 
     <!-- Container Circle Start -->
     <div class="container-fluid container_big_circle background_circle">
-        <img src="./img/Bubble/BigCirclex2.png">
+        <img src="./img/Bubble/BigCirclex2.png" alt="circle">
     </div>
     <!-- Container Circle End-->
 
     <!-- Section Carousel Small Start-->
-    <section class="container-fluid m-0 p-0 pb-5 mb-5">
+    <section class="container-fluid m-0 p-0 py-4 mb-4">
         <div class="carouselSmall position-relative d-flex">
             <div class="row m-0 p-0 position-relative">
                 <!-- Buttons Next/Prev Start-->
-                <div class="icons-content col-xl-1 col-lg-2 col-md-2 col-sm-2 d-flex p-md-0 m-md-0 z-3 position-relative">
+                <div class="icons-content col-xl-1 col-lg-2 col-md-2 col-sm-2 d-flex p-md-0 m-md-0 z-3 position-relative pb-5">
                     <div class="m-xl-3 m-md-0 pt-4">
-                        <img class="button-prev arrow_transform" src="./img/Control/next_arrow.png">
+                        <img class="button-prev arrow_transform" src="./img/Control/next_arrow.png" alt="carousel-prev">
                     </div>
                     <div class=" d-flex justify-content-between">
-                    <img class="line mb-xl-3 mb-md-0" src="./img/LineMiddleArrow/Line.png">
+                    <img class="line mb-xl-3 mb-md-0" src="./img/LineMiddleArrow/Line.png" alt="carousel-line">
                     </div>
                     <div class="m-xl-3 m-md-0 pt-4">
-                        <img class="button-next" src="./img/Control/next_arrow.png">
+                        <img class="button-next" src="./img/Control/next_arrow.png" alt="carousel-next">
                     </div>
                 </div>
                 <!-- Buttons Next/Prev End-->
@@ -657,10 +671,10 @@
                 <!-- Slide Start-->
                 <div class="slideSmall col-11 col-lg-10 col-md-10 col-sm-10 pt-lg-5 pt-sm-0 position-relative">
                     <div class="row">
-                        <div class="col-xl-5 col-md-10 col-sm-11 pt-5 mt-5 px-5">
+                        <div class="col-xl-6 col-md-10 col-sm-11 pt-5 px-5">
                             <div class="text-start px-xl-5 px-lg-0 mx-xl-4 mx-lg-0 w-100 pt-5">
                                 <h3 class="pb-4">Product Engineering</h3>
-                                <p>
+                                <p class="pb-0 mb-0 pb-5">
                                     We turn you concept into reality with our expert product
                                     engineering solutions. Our team aligns your requirements with
                                     effective business streategy and envisions methods and
@@ -669,8 +683,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center col-xl-7 col-md-10 col-sm-11 p-0 m-0 px-3">
-                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 px-3" src="./img/SmallCarrousel/img1.png">
+                        <div class="d-flex align-items-center justify-content-center col-xl-6 col-md-10 col-sm-11 p-0 m-0 px-3">
+                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 ps-4 ps-lg-0" src="./img/SmallCarrousel/img1.png" alt="Product-Engineering">
                         </div>
                     </div>
                 </div>
@@ -679,10 +693,10 @@
                 <!-- Slide Start-->
                 <div class="slideSmall col-11 col-lg-10 col-md-10 col-sm-10 pt-lg-5 pt-sm-0 position-relative">
                     <div class="row">
-                        <div class="col-xl-5 col-md-10 col-sm-11 pt-5 mt-5">
+                        <div class="col-xl-6 col-md-10 col-sm-11 pt-5 px-5">
                             <div class="text-start px-xl-5 px-lg-0 mx-xl-4 mx-lg-0 w-100 pt-5">
                                 <h3 class="pb-4">Web Development</h3>
-                                <p>
+                                <p class="pb-0 mb-0 pb-5">
                                     Our skilled teams have dedicated their knowledge in several
                                     projects involving web development. We are highly capable in
                                     creating hegh-end web applications, software, and exquisitely
@@ -691,8 +705,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center col-xl-7 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
-                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 px-3" src="./img/SmallCarrousel/img2.png">
+                        <div class="d-flex align-items-center justify-content-center col-xl-6 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
+                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 ps-4 ps-lg-0" src="./img/SmallCarrousel/img2.png" alt="Web-Development">
                         </div>
                     </div>
                 </div>
@@ -701,10 +715,10 @@
                 <!-- Slide Start-->
                 <div class="slideSmall col-11 col-lg-10 col-md-10 col-sm-10 pt-lg-5 pt-sm-0 position-relative">
                     <div class="row">
-                        <div class="col-xl-5 col-md-10 col-sm-11 pt-5 mt-5">
+                        <div class="col-xl-6 col-md-10 col-sm-11 pt-5 px-5">
                             <div class="text-start px-xl-5 px-lg-0 mx-xl-4 mx-lg-0 w-100 pt-5">
                                 <h3 class="pb-4">Mobile Development</h3>
-                                <p class="pb-0 mb-0">
+                                <p class="pb-0 mb-0 pb-5">
                                     Our mobile development includes designing, developing and
                                     optimizaing native and hybrid apps on multiple platforms. We
                                     nurture your concept by creating robust mobile app strategies
@@ -713,8 +727,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center col-xl-7 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
-                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 px-3" src="./img/SmallCarrousel/img3.png">
+                        <div class="d-flex align-items-center justify-content-center col-xl-6 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
+                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 ps-4 ps-lg-0" src="./img/SmallCarrousel/img3.png" alt="Mobile-Development">
                         </div>
                     </div>
                 </div>
@@ -723,10 +737,10 @@
                 <!-- Slide Start-->
                 <div class="slideSmall col-11 col-lg-10 col-md-10 col-sm-10 pt-lg-5 pt-sm-0 position-relative">
                     <div class="row">
-                        <div class="col-xl-5 col-md-10 col-sm-11 pt-5 mt-5">
+                        <div class="col-xl-6 col-md-10 col-sm-11 pt-5 px-5">
                             <div class="text-start px-xl-5 px-lg-0 mx-xl-4 mx-lg-0 w-100 pt-5">
                                 <h3 class="pb-4">DevOps</h3>
-                                <p class="pb-0 mb-0">
+                                <p class="pb-0 mb-0 pb-5">
                                     Promact provides DevOps services to automate end-to-end
                                     software delivery and ensure the scalability ande security of
                                     infrastructures in companies of all sizes. By consolidating
@@ -737,8 +751,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center col-xl-7 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
-                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 px-3" src="./img/SmallCarrousel/img4.png">
+                        <div class="d-flex align-items-center justify-content-center col-xl-6 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
+                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 ps-4 ps-lg-0" src="./img/SmallCarrousel/img4.png" alt="DevOps">
                         </div>
                     </div>
                 </div>
@@ -747,10 +761,10 @@
                 <!-- Slide Start-->
                 <div class="slideSmall col-11 col-lg-10 col-md-10 col-sm-10 pt-lg-5 pt-sm-0 position-relative">
                     <div class="row">
-                        <div class="col-xl-5 col-md-10 col-sm-11 pt-5 mt-5">
+                        <div class="col-xl-6 col-md-10 col-sm-11 pt-5 px-5">
                             <div class="text-start px-xl-5 px-lg-0 mx-xl-4 mx-lg-0 w-100 pt-5">
                                 <h3 class="pb-4">Artificial Intelligence</h3>
-                                <p class="pb-0 mb-0">
+                                <p class="pb-0 mb-0 pb-5">
                                     We use machine learning tools and algorithms to help
                                     companies develop AI-driven products and solutions. Our team
                                     has profound knowledge and experience in designing,
@@ -758,8 +772,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center col-xl-7 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
-                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 px-3" src="./img/SmallCarrousel/img5.png">
+                        <div class="d-flex align-items-center justify-content-center col-xl-6 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
+                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 ps-4 ps-lg-0" src="./img/SmallCarrousel/img5.png" alt="Artificial-Intelligence">
                         </div>
                     </div>
                 </div>
@@ -768,10 +782,10 @@
                 <!-- Slide Start-->
                 <div class="slideSmall col-11 col-lg-10 col-md-10 col-sm-10 pt-lg-5 pt-sm-0 position-relative">
                     <div class="row">
-                        <div class="col-xl-5 col-md-10 col-sm-11 pt-5 mt-5">
+                        <div class="col-xl-6 col-md-10 col-sm-11 pt-5 px-5">
                             <div class="text-start px-xl-5 px-lg-0 mx-xl-4 mx-lg-0 w-100 pt-5">
                                 <h3 class="pb-4">AWS Cloud Services</h3>
-                                <p class="pb-0 mb-0">
+                                <p class="pb-0 mb-0 pb-5">
                                     Our cloud consulting services cover an end-to-end assessment
                                     of your project requirements and current infrastructure. It helps
                                     develop effective implementation strategies that can weather
@@ -782,8 +796,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center justify-content-center col-xl-7 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
-                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 px-3" src="./img/SmallCarrousel/img6.png">
+                        <div class="d-flex align-items-center justify-content-center col-xl-6 col-md-10 col-sm-11 p-0 m-0 px-xl-5 px-lg-0">
+                            <img class="img-fluid p-0 m-0 w-xl-75 w-lg-100 ps-4 ps-lg-0" src="./img/SmallCarrousel/img6.png" alt="AWS-Cloud-Services">
                         </div>
                     </div>
                 </div>
@@ -795,22 +809,22 @@
 
     <!-- Section TeamWork Start-->
     <section class="hero-teamWork min-vh-100 text-center">
-        <div class="container h-100 w-100 mx-auto">
-            <div class="row mx-lg-5 mx-md-0 h-100 text-center w-100">
-                <div class="col-12 col-height d-flex align-items-center text-center p-4" style="height: 50vh;">
-                    <h1 class="text-white text-center fw-semibold display-1 pb-5">It makes us better <span>teammates.</span></h1>
+        <div class="container h-100 w-100 mx-auto d-flex justify-content-center">
+            <div class="row h-100 text-center w-100">
+                <div class="col-12 col-height d-flex align-items-center text-center" style="height: 50vh;">
+                    <h2 class="text-white text-center fw-semibold display-1 pb-5">It makes us better <span>teammates.</span></h2>
                 </div>
                 <div class="col-12 mt-lg-5 mt-md-3 mb-lg-4 mb-sm-2">
-                    <h2 class="text-white mt-3 mb-4">We are a family of Promactians</h2>
+                    <h3 class="text-white mt-3 mb-4">We are a family of Promactians</h3>
                 </div>
                 <div class="col-12 pb-lg-2 pb-md-0">
                     <p class="mb-0 pb-0">We are an excellence driven company with a passion for technology</p>
                     <p class="mb-0 pb-0">where people love what they do.</p>
                 </div>
-                <div class="col-12 pt-5">
-                    <div class="d-xl-flex d-lg-block justify-content-around">
-                            <h3 class="mb-3">Get <span>opportunities</span> to co-create, connect and celebrate!</h3>
-                            <button class="btn btn-sm rounded-5 px-4 py-1">Join Us</button>
+                <div class="col-12 pt-5 px-0 mx-0 w-100">
+                    <div class="d-xl-flex d-lg-block justify-content-between px-0 mx-0">
+                        <h4 class="mb-3 px-0 mx-0">Get <span>opportunities</span> to co-create, connect and celebrate!</h4>
+                        <button class="btn-join btn btn-sm rounded-5 px-4 py-1">Join Us</button>
                     </div>
                 </div>
             </div>
@@ -818,26 +832,27 @@
     </section>
     <!-- Section TeamWork End-->
 
-    <!-- ------- Section Footer Start ---------- -->
-    <section class="feature-section pt-80 text-center p-lg-5 p-md-3 p-sm-3">
-        <div class="container py-5 mx-1 mx-auto">
-        <div class="row justify-content-center px-lg-5 p-sm-0 my-lg-5 m-sm-0">
-
-            <div class="content-feature col-lg-6 col-sm-12 px-5 p-sm-0 my-lg-5 my-sm-0 pe-lg-5 pe-md-0">
-                <div class="p-lg-0 p-sm-0">
+    <!-- Section Footer Start -->
+    <section class="feature-section py-5 mt-5 text-center px-xl-5 px-lg-0 mx-xl-5 mx-lg-0 text-center">
+        <div class="row justify-content-center px-xl-5 px-lg-0 my-lg-5 text-center mx-xl-5 mx-lg-0 py-xxl-5">
+            <div class="content-feature col-lg-6 col-md-12 col-sm-12 my-lg-6 my-sm-0 text-center pb-5">
+                <div>
                     <h2>What can we help you</h2>
                     <h2>achieve?</h2>
-                    <button class="btn btn-sm my-3 rounded-5 px-5 py-lg-2 py-md-0 py-sm-2">Talk to Us!</button>
+                    <a class="link-features btn btn-sm my-3 rounded-5 mb-5" href="./pages/contact.html">
+                        Talk to Us!
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12 px-5 my-5 p-sm-0 ps-lg-5 ps-md-0">
-                <div class="p-lg-0 p-sm-0">
+            <div class="col-lg-6 col-md-12 col-sm-12 my-lg-6 my-sm-0 text-center pb-5">
+                <div>
                     <h2>Where will your career</h2>
                     <h2>take you?</h2>
-                    <button class="btn btn-sm my-3 rounded-5 px-5 py-lg-2 py-md-0 py-sm-2">Find Out Now!</button>
+                    <a class="link-features btn btn-sm my-3 rounded-5 mb-5" href="./pages/career.html">
+                        Find Out Now!
+                    </a>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <footer class="container-fluid px-lg-5 px-md-0 px-sm-0 text-sm-center">
@@ -855,22 +870,22 @@
                     <ul class="list-inline">
                         <li class="list-inline-item ms-lg-0">
                             <a href="#">
-                                <img src="./img/Group 315.svg">
+                                <img src="./img/Group315.svg" alt="linkedin">
                             </a>
                         </li>
                         <li class="list-inline-item ms-lg-2 ms-md-0 ms-sm-0">
                             <a href="#">
-                                <img src="./img/Group 316.svg">
+                                <img src="./img/Group316.svg" alt="facebook">
                             </a>
                         </li>
                         <li class="list-inline-item ms-lg-2 ms-md-0 ms-sm-0">
                             <a href="#">
-                            <img src="./img/Group 312.svg">
+                            <img src="./img/Group312.svg" alt="twitter">
                             </a>
                         </li>
                         <li class="list-inline-item ms-lg-2 ms-md-0 ms-sm-0">
                             <a href="#">
-                                <img src="./img/Group 318.svg">
+                                <img src="./img/Group318.svg" alt="instagram">
                             </a>
                         </li>
                     </ul>
@@ -878,14 +893,14 @@
             </div>
         </div>
     </footer>
-    <!-- ------- Section Footer End ---------- -->
+    <!-- Section Footer End -->
 
     <!-- Js Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- JS DropDown Company -->
+    <!-- JS DropDown Navigator -->
     <script src="./js/dropDownNavIndex.js"></script>
 
     <!-- Carousel JS -->

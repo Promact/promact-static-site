@@ -52,6 +52,7 @@ body{
     cursor: pointer;
     top: 50%;
     width: auto;
+    min-width: 45px!important;
     padding: 16px;
     margin-top: -22px;
     color: white;
